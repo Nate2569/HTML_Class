@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Stuff</title>
+    <link rel="stylesheet" href="Stylesheet.Css">
+</head>
+
+<body>
+
+
+    <div class="box">
+
+
+        <header>
+            <div class="wrap">
+                <div class="logo">
+                    <a href="#">
+
+
+                        <img width="140px" height="auto" src="Food_Logo.png" alt="Our Logo">
+                    </a>
+
+
+                </div>
+
+                <nav>
+
+                    <a href="#">Home</a>
+                    <a href="#Menu">Menu</a>
+                    <a href="#Staff">Staff</a>
+                    <a href="#Catering">Catering</a>
+                    <a href="#Rewards">Rewards</a>
+
+                </nav>
+
+
+            </div>
+
+
+        </header>
+
+        <div class="banner-area">
+            <h2 class="main-title">Egg Shed</h2>
+            <p style="color: white; font-family: 'Brush Script MT', cursive;">Welcome to Food Place <br> Try our
+               breakfast items</p>
+            <a href="#Menu">
+                <button class="button1">Order now</button>
+
+            </a>
+
+        </div>
+        <div class="content-area">
+
+            <div class="wrap">
+
+
+
+                <h2 id="Menu" class="content-title-menu">Menu</h2>
+                <hr>
+                <div>
+
+                    <div class="content-title-menu">
+                        <h3>Breakfast</h3>
+                        <h5>9 A.M. ~ 12 P.M.</h5>
+                        <br>
+                        <br>
+                        <br>
+
+                    </div>
+                    <h4 class="eands" class="content-title-menu">Entrees</h4>
+                    <div class="flexed">
+                        <div class="foodpic"><img src="Breakf_1-nobg.png" width="200px" height="auto" alt="3 egg Combo">
+                            <br>
+                            <p>3 egg Combo</p>
+                        </div>
+                        <div class="foodpic"> <img src="Breakf_2-nobg.png" width="200px" height="auto"
+                                alt="Berry Waffles">
+                            <br>
+                            <p>Berry Waffles</p>
+                        </div>
+                        <div class="foodpic"><img src="Breakf_3-nobg.png" width="200px" height="auto"
+                                alt="Cornbeef Hash and Eggs">
+                            <br>
+                            <p>Cornbeef Hash and Eggs</p>
+                        </div>
+
+                    </div>
+
+                    <h4 class="eands">Sides</h4>
+                    <div class="flexed">
+                        <div class="foodpic"><img src="Breakf_4-nobg.png" width="200px" height="auto" alt="Grits">
+                            <br>
+                            <p>Grits</p>
+                        </div>
+                        <div class="foodpic"><img src="Breakf_5-nobg.png" width="200px" height="auto"
+                                alt="Turkey Bacon">
+                            <br>
+                            <p>Turkey Bacon</p>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <h2 id="Staff" class="content-title-staff">Staff</h2>
+                    <hr>
+                    <h3 class="content-title-staff" style="text-align: center;">Meet The Team</h3>
+                    <table style="width:100%; ">
+                        <tr>
+                            
+                            <th>Name</th>
+
+                            <th>Experience</th>
+
+
+                        </tr>
+
+                        <tr >
+                             
+                            <td class="staff1">Taylor Cornish</td>
+
+                            <td class="staff1">Pro OverCooked Player</td>
+                        </tr>
+                        <tr>
+                             
+                            <td class="staff2">Vic Tirado</td>
+
+                            <td class="staff2">Is literally ratatouille</td>
+                        </tr>
+
+                        <tr>
+                             
+                            <td class="staff3">Darien Edwards</td>
+
+                            <td class="staff3">PB&J Master</td>
+                        </tr>
+
+                        <tr>
+                             
+                            <td class="staff4">Isabella Pangione</td>
+
+                            <td class="staff4">Profsestional Waitstaff</td>
+                        </tr>
+                        <tr>
+                             
+                            <td class="staff5">Kate Darling</td>
+
+                            <td class="staff5">Can only cook Pasta</td>
+                        </tr>
+
+
+                    </table>
+
+                    <h2 id="Catering" class="content-title-catering">Catering</h2>
+                    <hr>
+                    <h3 class="content-title-catering">Hourly Rate</h3>
+                    <br>
+                    <blockquote>We charge $20 dollars for hour that we have to cook and serve while on site. It'll be
+                        extra for clean up or take hoime plates.</blockquote>
+                    <br>
+                    <h3 class="content-title-catering">Pay Per Plate</h3><br><br>
+                    <blockquote>We want our guests happy and fed. To do that, every extra plate outside of our catered
+                        rate is $15 dollars per plate.</blockquote>
+
+                    <h2 id="Rewards" class="content-title-rewards">Rewards</h2>
+                    <hr>
+                    <h3 class="content-title-rewards">Reward Qualifications</h3>
+                    <br><br>
+                    <p>If you have been here at least <b>15</b> times, you can hget a free side! </p><br>
+                    <p>How many times have you been here?</p>
+
+                    <input style="height:80px; width:300px; font-size: xx-large;" id="numb">
+                    
+                    <button class="button1" type="button" onclick="number_Of_Visits()">Submit</button>
+                    
+                    <p id="output"></p>
+                    <br><br>
+                
+                    <br><br>
+
+                    <h3 class="content-title-rewards">Our Program</h3>
+                    <p>So we have our rewards program. Over time with many purchaces, you can get a free side! It'll
+                        take time, but it will taste amazing. The best part is that it's free!</p>
+                    <br><br>
+
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script>
+    function number_Of_Visits() {
+
+      let x = document.getElementById("numb").value;
+      let text;
+      if (isNaN(x) || x <=15) {
+        text = "You'll have to come back more often!";
+      } else {
+        text = "You've been here " + x+ " times!" +" Head to the counter to claim your free slide in store.";
+      }
+      document.getElementById("output").innerHTML = text;
+    }
+    </script>
+
+</html>

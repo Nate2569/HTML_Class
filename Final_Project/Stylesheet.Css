@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: left;
+    font-size: xx-large;
+}
+
+h5 {
+    text-align: left;
+    font-size: medium;
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(42, 121, 66);
+    position: fixed;
+    top: 0;
+}
+
+td{
+    padding: 15px;
+}
+p
+{
+    font-size: x-large;
+}
+
+
+
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 85px;
+
+}
+.logo:hover
+{
+    transition: transform .5s;
+    width: 250px;
+    height: auto;
+    transform: scale(1.25);
+}
+
+
+
+
+nav {
+    float: right;
+    line-height: 100px;
+    padding: 7px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: aliceblue;
+    padding: 50px 25px;
+    margin: 0 1px;
+    font-weight: 500;
+
+
+}
+
+nav :hover {
+    padding: 15px;
+    background: white;
+    color: black;
+
+}
+
+.banner-area {
+    background: url(Background_Food.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    
+
+}
+
+
+/* This patch is the tiny area whre the header meets the picture. Don't make too big. We can expreiemnt with it*/
+.banner-area :after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    background: rgb(128, 0, 128);
+    opacity: 0.5;
+    z-index: -1;
+
+
+
+}
+
+.banner-area h2 {
+
+    padding-top: 2%;
+    font-size: 95px;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+.banner-area p {
+
+    color: white;
+    font-size: 55px;
+
+
+
+
+}
+
+.content-area {
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: white;
+    top: 500px;
+    background: url(Paper_w.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content-area h2 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+
+.content-area p {
+    padding: 2%;
+    line-height: 30px;
+    text-align: justify;
+
+
+}
+
+.button1 {
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(255, 113, 48);
+    font-size: x-large;
+    transition-duration: 0.5s;
+
+}
+
+.button1:hover {
+
+    background-color: red;
+    color: rgb(255, 255, 255);
+
+}
+
+.main-title {
+    color: black;
+}
+
+.main-title:hover {
+    color: rgb(109, 18, 18);
+    transition-duration: 0.5s;
+
+}
+
+.content-title-menu {
+    color: black;
+
+}
+
+.content-title-menu:hover {
+    color: rgb(196, 40, 136);
+    transition-duration: 0.5s;
+
+}
+
+.content-title-staff {
+    color: black;
+
+}
+
+.content-title-staff:hover {
+    color: rgb(202, 35, 35);
+    transition-duration: 0.5s;
+
+}
+.staff1 {
+    color: black;
+
+}
+
+.staff1:hover {
+    color: rgb(255, 30, 217);
+    transition-duration: 0.5s;
+
+}
+.staff2 {
+    color: black;
+
+}
+
+.staff2:hover {
+    color: rgb(26, 236, 61);
+    transition-duration: 0.5s;
+
+}
+
+.staff3 {
+    color: black;
+
+}
+
+.staff3:hover {
+    color: rgb(0, 3, 199);
+    transition-duration: 0.5s;
+
+}
+
+.staff4 {
+    color: black;
+
+}
+
+.staff4:hover {
+    color: rgb(11, 152, 207);
+    transition-duration: 0.5s;
+
+}
+
+.staff5 {
+    color: black;
+
+}
+
+.staff5:hover {
+    color: rgb(191, 6, 228);
+    transition-duration: 0.5s;
+
+}
+
+.content-title-catering {
+    color: black;
+
+}
+
+.content-title-catering:hover {
+    color: rgb(18, 177, 26);
+    transition-duration: 0.5s;
+
+}
+
+.content-title-rewards {
+    color: black;
+
+}
+
+.content-title-rewards:hover {
+    color: rgb(243, 205, 36);
+    transition-duration: 0.5s;
+
+}
+
+.flexed {
+
+    display: flex;
+
+
+}
+
+.flexed>div {
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 15px;
+    padding: 45px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.foodpic {
+
+    width: 200px;
+    height: auto;
+}
+
+.foodpic>p {
+    color: black;
+
+}
+
+.foodpic>p:hover {
+
+    color: rgb(196, 40, 136);
+}
+
+.foodpic:hover {
+    transition: transform .5s;
+    width: 250px;
+    height: auto;
+    transform: scale(1.5);
+}
+.eands
+{
+text-align: left;
+font-size: 35px;
+
+}
+
+blockquote
+{
+border-radius: 20px;
+padding:  1%; 
+background-color: rgba(120, 223, 125, 0.637);
+font-size: x-large;
+
+}
+
